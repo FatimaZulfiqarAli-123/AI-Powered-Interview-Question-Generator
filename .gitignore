@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Generated outputs
+outputs/
+
+# AI model/cache files
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Hugging Face cache
+.cache/
+huggingface/
+transformers_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
