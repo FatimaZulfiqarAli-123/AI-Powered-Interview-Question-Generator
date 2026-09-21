@@ -1,4 +1,4 @@
-# 🤖 AI-Powered Interview Question Generator
+# AI-Powered Interview Question Generator
 
 An AI-powered interview question generation system that creates **personalized technical and behavioral interview questions** based on a candidate's resume, a job description, and a predefined question bank.
 
@@ -53,39 +53,6 @@ Job Description   Question Bank
                │
                ▼
     generated_questions.txt
-```
-
----
-
-## 📂 Project Structure
-
-```text
-AI-Powered-Interview-Question-Generator/
-│
-├── data/
-│   ├── resumes/
-│   │   └── Fatima_CV_001.pdf
-│   │
-│   ├── job_descriptions/
-│   │   └── ml_intern_job.pdf
-│   │
-│   └── question_bank/
-│       └── questions.txt
-│
-├── src/
-│   ├── document_loader.py
-│   ├── model.py
-│   ├── question_generator.py
-│   └── report_generator.py
-│
-├── outputs/
-│   └── generated_questions.txt
-│
-├── main.py
-│
-├── requirements.txt
-│
-└── README.md
 ```
 
 ---
